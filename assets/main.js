@@ -1,38 +1,33 @@
 
-//JavaScript String Methods
+//JavaScript if, else, and else if
 
-// 1.length:()
-// let myString = "Hello, world!";
-//console.log(myString.length); // Output: 13
+// 1
+let HavaYagislidir= true ;
+let HavaKulekdir =false ;
+ if (HavaYagislidir) {
+    console.log ("Don't forget your umbrella! ");
+ } else {
+    console.log ("No need for an umbrella today.");
 
-// 2.toUpperCase():
-//let myString = "Hello, Anka!";
-//console.log(myString.toUpperCase()); // Output: HELLO, WORLD!
+ } if (HavaKulekdir) {
+    console.log("Hold onto your hat!");
+ }
 
-//3.toLowerCase(): 
-//let myString = "Hello, world!";
-//console.log(myString.toLowerCase()); // Output: hello, world!
+//2 
+let temperature = 25;
+if (temperature > 30) {
+  console.log("It's hot outside!");
+} else if (temperature > 20 && temperature <= 30) {
+  console.log("The weather is pleasant today.");
+} else {
+  console.log("It's a bit chilly outside.");
+}
 
-//4.indexOf(): 
-//let myString = "Hello, world!";
-//console.log(myString.indexOf("world")); // Output: 7
-//console.log(myString.indexOf("l")); // Output: 2
 
-//5.slice(): 
-//let myString = "Hello, world!";
-//console.log(myString.slice(0, 5)); // Output: Hello
-//console.log(myString.slice(7)); // Output: world!
-
-//6.replace(): 
-//let myString = "Hello, world!";
-//console.log(myString.replace("world", "Anka")); // Output: Hello, everyone!
-
-//7. concat(): 
-let str1 = "Hello";
-let str2 = "world!";
-let str3 =  "Anka!";
-console.log(str1.concat(", ", str2,str3)); // Output: Hello, world!
-
-//8.trim():
-//let myString = "   Hello, world!   ";
-//console.log(myString.trim()); // Output: Hello, world!
+//3 
+let age = prompt("Please enter your age:");
+if (age >= 18) {
+  console.log("You are allowed to enter.");
+} else {
+  console.log("You are not allowed to enter.");
+}
